@@ -443,7 +443,7 @@ class InstalledAppFlow(Flow):
     def run_local_server(
         self,
         host="localhost",
-        bind_addr=None
+        bind_addr=None,
         port=8080,
         authorization_prompt_message=_DEFAULT_AUTH_PROMPT_MESSAGE,
         success_message=_DEFAULT_WEB_SUCCESS_MESSAGE,
